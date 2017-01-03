@@ -1,8 +1,16 @@
 package core.person;
 
 import java.text.Normalizer.Form;
+import java.util.ArrayList;
 
-public class GeneralPerson {
+public abstract class GeneralPerson {
 protected int age;
-private Form[] forms;
+protected String firstname;
+protected String secondname;
+protected String lastname;
+protected ArrayList<Form> forms = new ArrayList<Form>();
+
+public GeneralPerson(int age,Form[] hasforms){
+	
+}
 }
